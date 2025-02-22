@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: working test
         setup-command: ''
-        command: node server.js
+        command: npm start
         timeout: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
